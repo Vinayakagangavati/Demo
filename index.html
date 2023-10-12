@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=border: 1px solid black;, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        body{
+            background: #2F1893;
+            color: white;
+        }
+        .header{
+            position: absolute;
+            width: 1090px;
+            height: 40px;
+            top: 65px;
+            left: 15%;
+            display: grid;
+            grid-template-columns: auto 503px 120px ;
+        }
+        .startup{
+            width: 100px;
+            height: 19px;
+            margin-top: 5px;
+            font-family: "DM Sans";
+            font-size: 24px;
+            line-height: 31px;
+            color: white;
+        }
+        .menu{
+            width: 510px;
+            height: 40px;
+            position: relative;
+            margin-top: 5px;
+        }
+        .menu a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+        .menu li{
+            list-style: none;
+            display: inline;
+            margin: 0 20px 0 20px;
+            padding: 0 10px 0 10px;
+            font-family: "DM Sans";
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: 0px;
+        }
+        .button{
+            width: 120px;
+            height: 40px;
+            border: 1px solid grey;
+            border-radius: 100px;
+            font-family: "DM Sans";
+            font-size: 18px;
+            line-height: 26px;
+            background-color: #E93A7D;
+        }
+        .textbox{
+            position:absolute;
+            width: 427px;
+            height: 496px;
+            top: 219px;
+            left: 209px;
+        }
+        .para{
+            width: 424px;
+            height: 217px;
+            top: 219px;
+            left: 212px;
+            font-family: "DM Sans";
+            font-size: 50px;
+            font-weight: 500;
+            box-sizing: border-box;
+            padding:10px;
+            line-height: 70px;
+            letter-spacing: -1px;
+            text-align: left;
+        }
+        .middlepara{
+            width: 350px;
+            height: 50px;
+            position: relative;
+            font-family: "DM Sans";
+            top:-10px;
+            left:10px;
+            font-size: 25px;
+            line-height: 32px;
+            text-align: justify;
+         }
+         .lastpara{
+            position: absolute;
+            top:400px;
+            width: 157px;
+            height: 50px;
+            border-radius: 100px;
+            font-family: "DM Sans";
+            font-size: 18px;
+            line-height: 26px;
+            border: 1px solid grey;
+            background-color: #E93A7D;
+         }
+         .signup{
+            position:absolute;
+            width: 400px;
+            height: 500px;
+            top: 0px;
+            left: 715px;
+            background-color: white;
+         }
+         .text{
+            width: 400px;
+            height: 50px;
+            position: relative;
+            font-family: "DM Sans";
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 50px;
+            text-align: center;
+            color:#1E0E62;
+         }
+         #email,#password{
+            width: 330px;
+            height: 50px;
+            position: relative;
+            top:-25px;
+            left:35px;
+            margin-top: 5px;
+            font-family: "DM Sans";
+            font-size: 18px;
+            border: 1px solid grey;
+            border-radius: 100px;
+            box-sizing: border-box;
+            padding-left:25px ;
+         }
+         .declaration{
+            width: 265px;
+            position: relative;
+            left: 75px;
+            font-family: "DM Sans";
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #2F1893;
+        }
+        #signup{
+            width: 330px;
+            height: 50px;
+            position: relative;
+            left: 30px;
+            margin-top: 20px;
+            font-family: "DM Sans";          
+            font-size: 18px;
+            line-height: 26px;
+            border: 1px solid grey;
+            border-radius: 100px;
+            background-color: #1DA1F2;
+        }
+        .seperator{
+            width: 328px;
+            height: 26px;
+            position: relative;
+            left:35px;
+            margin-top: 10px;
+            color: #2F1893;
+            text-align: center;
+        }
+        .secondline,.firstline{
+            width:150px;
+            height: 0.5px;
+            position: relative;
+            top:10px;
+            background-color: #1E0E62;
+        }
+        .secondline{
+            left:175px;
+            top:-9px;
+        }
+        .footer{
+            width: 405px;
+            height: 28px;
+            position: relative;
+            margin-top: 10px;
+            font-size: 18px;
+            text-align: center;
+            font-family: "DM Sans"; 
+            color: #9b98a9;
+        }
+        .signin{
+            width: 56px;
+            height: 28px;
+            top: 716px;
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0px;
+            font-family: "DM Sans"; 
+            color: #2dc55a;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <div class="startup">StartUp3</div>
+            <div class="menu">
+                <a href=""><li>Overflow</li></a>
+                <a href=""><li>Prices</li></a>
+                <a href=""><li>Blog</li></a>
+                <a href=""><li>Feedback</li></a>
+            </div>
+            <div><button  class="button">Purchase</button></div>
+        </div>
+        <div class="textbox">
+          <div class="para">Generate Awesome Web Pages</div>
+          <div class="middlepara"><h6>The most important part of the Startup is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks.</h6></div>
+          <div><button class="lastpara">Learn More</button>
+        </div>
+        <div class="signup">
+            <h3 class="text">Sign Up Now</h3>
+            <div><input type="text" placeholder="Your email" id="email"/></div>
+            <div><input type="text" placeholder="Your password" id="password"/></div>
+            <div class="declaration">
+                <label><input type="checkbox" checked="true">I Agree to Terms of Series</label> 
+            </div>
+            <div class="btn"><button id="signup" style="background-color: #482BE7;">Sign Up</button></div>
+            <div class="seperator"><div class="firstline"></div>or<div class="secondline"></div></div>
+            <div class="btn"><button id="signup">Login via Twitter/X</button></div>
+            <div class="footer">Do you have an account?<span class="signin">Sign In</span></div>
+        </div>
+    </div>
+</body>
+</html>
